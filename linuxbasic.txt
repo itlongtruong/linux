@@ -1,0 +1,13 @@
+ - ls  liệt kê nội dung (file và thư mục) trong thư mục hiện hành. Nó cũng tương tự với việc bạn mở một thư mục và xem nội dung trong đó trên giao diện người dùng.
+- mkdir <tên thư mục mới>  tạo một thư mục mới. Nó cũng tương tự với việc bạn chọn new/create directory để tạo một thư mục mới trên giao diện người dùng.
+- ll cho ngắn gọn hơn ls -l
+- touch tạo file 
+- mkdir tạo thu muc
+-cat <tên file>  đọc và in ra nội dung của file ra màn hình.
+- tail <tên file>  đọc và in ra nội dung 10 dòng cuối cùng của file (mặc định).
+- tail -f Ngoài ra, sử dụng tùy chọn -f trong câu lệnh tail cho phép chúng ta xem nội dung của file log theo kiểu thời gian thực (real time). Điều này có là câu lệnh này sẽ hiển thị các thay đổi trong nội dung file ngay khi chúng được tạo ra:
+
+
+Bạn có thể sử dụng  tail -n N <tên file>  để chỉ định in  N  dòng ra màn hình.
+- less <tên file>  in ra nội dung của một file theo từng trang trong trường hợp nội dung của file quá lớn và phải đọc theo trang. Bạn có thể dùng Ctrl+F để chuyển trang tiếp theo và Ctrl+B để chuyển về trang trước.
+-Câu lệnh head trong Linux cho phép chúng ta xem phần đầu nội dung 10 dòng đầu của file,
