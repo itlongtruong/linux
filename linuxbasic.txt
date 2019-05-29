@@ -11,4 +11,7 @@
 Bạn có thể sử dụng  tail -n N <tên file>  để chỉ định in  N  dòng ra màn hình.
 - less <tên file>  in ra nội dung của một file theo từng trang trong trường hợp nội dung của file quá lớn và phải đọc theo trang. Bạn có thể dùng Ctrl+F để chuyển trang tiếp theo và Ctrl+B để chuyển về trang trước.
 -Câu lệnh head trong Linux cho phép chúng ta xem phần đầu nội dung 10 dòng đầu của file,
+-tao ssh : ssh-keygen -t rsa
+- Lệnh TOP là một trong những lệnh cực kì quan trong cho admin quản trị hệ thống linux. Quản trị được các thông số, CPU, RAM, I/O , các tiến trình đang hoạt động trên hệ thống.
+
 - copy id ssh : sudo ssh-copy-id -i ~/.ssh/id_rsa long@192.168.33.15
